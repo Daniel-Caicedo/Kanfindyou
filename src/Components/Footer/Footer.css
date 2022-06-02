@@ -1,0 +1,40 @@
+.o-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 18rem;
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+    margin-top: 0rem;
+}
+.o-links-container {
+    width: 40rem;
+    display: flex;
+    justify-content: space-around;
+}
+.o-link{
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+.o-link-red {
+    font-size: 2rem;
+}
+.o-link:hover{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.footerText {
+    text-align: start;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 8rem;
+    margin-top: 5rem;
+}
+.footerText {
+    width: 600px !important;
+}
